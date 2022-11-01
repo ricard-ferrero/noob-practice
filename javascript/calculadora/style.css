@@ -1,0 +1,55 @@
+* {
+	font-family: 'Nunito', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	margin: 20px;
+	background-color: mediumpurple;
+	border-radius: 100px;
+	box-shadow: 10px 10px 10px darkslateblue;
+}
+
+h1 {
+	padding: 30px;
+	text-align: center;
+	font-size: 3rem;
+	color: white;
+}
+
+table {
+	border: 2px solid plum;
+	border-radius: 10px;
+	margin: 0 auto;
+	box-shadow: 5px 5px 10px darkslateblue;
+}
+
+th, td {
+	border: 2px solid plum;
+	border-radius: 10px;
+	padding: 10px 20px;
+	font-size: 2rem;
+}
+
+th {
+	text-align: right;
+	border-color: mediumpurple;
+	font-weight: normal !important;
+	font-style: italic;
+}
+
+td {
+	text-align: center;
+	user-select: none;
+}
+
+td:hover {
+	transition-duration: 0.2s;
+	background-color: thistle;
+}
+
+td:active {
+	transition-duration: 0s;
+	background: aquamarine;
+}
